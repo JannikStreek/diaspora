@@ -32,6 +32,7 @@
 * OpenGraph: don't make description into links [#4492](https://github.com/diaspora/diaspora/issues/4492)
 * Don't cut off long tags in stream posts [#4864](https://github.com/diaspora/diaspora/issues/4864)
 * Do not replace earlier appearances of the name while mentioning somebody [#4868](https://github.com/diaspora/diaspora/issues/4868)
+* Catch exceptions when trying to decode an invalid URI [#4874](https://github.com/diaspora/diaspora/issues/4874)
 
 ## Features
 * You can report a single post by clicking the correct icon in the controler section [#4517](https://github.com/diaspora/diaspora/pull/4517)
@@ -40,6 +41,7 @@
 * Added comment count to statistic to enable calculations of posts/comments ratios [#4799](https://github.com/diaspora/diaspora/pull/4799)
 * Add filters to notifications controller [#4814](https://github.com/diaspora/diaspora/pull/4814)
 * Activate hovercards in SPV and conversations [#4870](https://github.com/diaspora/diaspora/pull/4870)
+* Added possibility to conduct polls [#4861](https://github.com/diaspora/diaspora/pull/4861)
 
 # 0.3.0.3
 
@@ -58,6 +60,7 @@
 ## Bug fixes
 * Fix regression caused by using after_commit with nested '#save' which lead to an infinite recursion [#4715](https://github.com/diaspora/diaspora/issues/4715)
 * Save textarea value before rendering comments when clicked 'show more...' [#4514](https://github.com/diaspora/diaspora/issues/4514)
+
 # 0.3.0.0
 
 ## Pod statistics
